@@ -1,0 +1,1188 @@
+[21-Apr-2019 14:56:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/mcis-master/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/mcis-master/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php on line 44
+[21-Apr-2019 14:56:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/mcis-master/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/mcis-master/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php on line 52
+[21-Apr-2019 14:56:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/mcis-master/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/mcis-master/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php on line 44
+[21-Apr-2019 14:56:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/mcis-master/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/mcis-master/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php on line 52
+[21-Apr-2019 14:56:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/mcis-master/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'Rahul P...')
+#1 /home/uf94m1j49n0o/public_html/mcis-master/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php on line 44
+[21-Apr-2019 14:56:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/mcis-master/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'Rahul P...')
+#1 /home/uf94m1j49n0o/public_html/mcis-master/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php on line 44
+[21-Apr-2019 14:56:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/mcis-master/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'Rahul P...')
+#1 /home/uf94m1j49n0o/public_html/mcis-master/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php on line 44
+[21-Apr-2019 14:56:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/mcis-master/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/mcis-master/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php on line 52
+[21-Apr-2019 14:56:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/mcis-master/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php on line 52
+[21-Apr-2019 14:57:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/mcis-master/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php on line 52
+[21-Apr-2019 14:57:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/mcis-master/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php on line 52
+[21-Apr-2019 14:57:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/mcis-master/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/mcis-master/classes/DB.php on line 52
+[21-Apr-2019 14:57:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 14:57:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:57:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:57:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 14:57:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:58:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:58:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:58:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:58:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:58:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:58:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:59:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 14:59:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:59:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 14:59:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:59:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:59:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:59:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:59:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:59:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:59:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:59:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:59:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:59:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 14:59:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:59:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 14:59:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:00:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:00:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:00:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:00:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:00:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:00:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:00:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:01:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:01:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:01:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:01:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:01:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:01:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:01:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:02:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:02:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:02:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:02:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:02:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:02:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:03:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:03:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:03:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:03:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:03:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:03:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:03:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:03:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:03:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:03:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:03:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:03:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:03:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:04:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:04:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:04:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:04:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:04:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:04:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:05:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:05:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:05:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:05:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:05:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:05:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:06:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:06:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:06:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:06:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:06:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:06:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:07:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:07:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:07:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:07:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:07:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asasasa...')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:07:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:07:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:07:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asasasa...')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:08:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asasasa...')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:08:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asasasa...')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:08:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asasasa...')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:08:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asasasa...')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:08:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asasasa...')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:08:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asasasa...')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:08:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asasasa...')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:08:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asasasa...')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:08:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asasasa...')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:08:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:08:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asasasa...')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:08:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:08:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:08:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:08:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:08:46 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:08:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:51
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 51
+[21-Apr-2019 15:08:56 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:08:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:51
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 51
+[21-Apr-2019 15:09:06 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:09:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:51
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 51
+[21-Apr-2019 15:09:16 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:51
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 51
+[21-Apr-2019 15:09:25 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:09:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:51
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 51
+[21-Apr-2019 15:09:29 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:09:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:43
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 43
+[21-Apr-2019 15:09:29 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:09:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:51
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 51
+[21-Apr-2019 15:09:33 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:09:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:43
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asas'')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 43
+[21-Apr-2019 15:09:34 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:09:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:43
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asas'')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 43
+[21-Apr-2019 15:09:35 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:09:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:43
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asas'')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 43
+[21-Apr-2019 15:09:35 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:09:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:43
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asas'')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 43
+[21-Apr-2019 15:09:35 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:09:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:43
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asas'')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 43
+[21-Apr-2019 15:09:39 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:09:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:51
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 51
+[21-Apr-2019 15:09:41 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:09:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:51
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 51
+[21-Apr-2019 15:09:48 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:09:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:51
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 51
+[21-Apr-2019 15:09:49 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:09:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:51
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 51
+[21-Apr-2019 15:09:51 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:09:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:51
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 51
+[21-Apr-2019 15:09:59 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:09:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:51
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 51
+[21-Apr-2019 15:10:09 UTC] PHP Notice:  Undefined variable: server in /home/uf94m1j49n0o/public_html/classes/DB.php on line 18
+[21-Apr-2019 15:10:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:51
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 51
+[21-Apr-2019 15:10:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:10:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:10:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:10:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:10:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:10:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:10:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:10:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:10:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:10:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:11:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:11:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:11:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:11:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:11:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:11:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:12:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:12:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:12:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:12:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:12:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:12:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:13:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:13:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:13:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:13:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:13:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:13:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:14:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:14:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:14:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:14:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:14:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:14:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:14:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asasas'')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:14:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asasas'')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:14:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asasas'')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:14:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asasas'')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:14:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(16): DB::select('manufacturer', Array, 'name = 'asasas'')
+#1 /home/uf94m1j49n0o/public_html/services/add_manufacturer.php(7): Manufacturer->insert(Array)
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:14:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:14:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:14:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:14:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:14:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:14:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:14:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:14:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:14:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:14:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:15:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:15:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:15:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:15:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:15:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:15:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:16:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:16:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:16:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:16:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:16:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:16:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:16:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:16:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:16:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:17:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:18:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:18:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:18:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:44
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Manufacturer.php(10): DB::select('manufacturer', Array)
+#1 /home/uf94m1j49n0o/public_html/services/get_manufacturer.php(7): Manufacturer->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 44
+[21-Apr-2019 15:18:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:18:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/classes/Inventory.php(21): DB::select_sql('SELECT m.id AS ...')
+#1 /home/uf94m1j49n0o/public_html/services/get_inventory.php(11): Inventory->selectAll()
+#2 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:18:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:18:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:18:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:18:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:19:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:19:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:19:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/uf94m1j49n0o/public_html/classes/DB.php:52
+Stack trace:
+#0 /home/uf94m1j49n0o/public_html/services/notification.php(20): DB::select_sql('SELECT CONCAT(m...')
+#1 {main}
+  thrown in /home/uf94m1j49n0o/public_html/classes/DB.php on line 52
+[21-Apr-2019 15:34:03 UTC] PHP Notice:  Undefined index: id in /home/uf94m1j49n0o/public_html/services/sold_out_inventory.php on line 7
+[21-Apr-2019 15:45:21 UTC] PHP Notice:  Undefined index: image_file1 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 7
+[21-Apr-2019 15:45:21 UTC] PHP Notice:  Undefined index: image_file2 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 9
+[21-Apr-2019 15:45:21 UTC] PHP Notice:  Undefined index: image_file1 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 12
+[21-Apr-2019 15:45:21 UTC] PHP Notice:  Undefined index: image_file1 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 15
+[21-Apr-2019 15:45:21 UTC] PHP Notice:  Undefined index: image_file2 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 20
+[21-Apr-2019 15:45:21 UTC] PHP Notice:  Undefined index: image_file2 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 23
+[21-Apr-2019 15:45:22 UTC] PHP Notice:  Undefined index: image_file1 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 7
+[21-Apr-2019 15:45:22 UTC] PHP Notice:  Undefined index: image_file2 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 9
+[21-Apr-2019 15:45:22 UTC] PHP Notice:  Undefined index: image_file1 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 12
+[21-Apr-2019 15:45:22 UTC] PHP Notice:  Undefined index: image_file1 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 15
+[21-Apr-2019 15:45:22 UTC] PHP Notice:  Undefined index: image_file2 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 20
+[21-Apr-2019 15:45:22 UTC] PHP Notice:  Undefined index: image_file2 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 23
+[21-Apr-2019 15:45:22 UTC] PHP Notice:  Undefined index: image_file1 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 7
+[21-Apr-2019 15:45:22 UTC] PHP Notice:  Undefined index: image_file2 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 9
+[21-Apr-2019 15:45:22 UTC] PHP Notice:  Undefined index: image_file1 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 12
+[21-Apr-2019 15:45:22 UTC] PHP Notice:  Undefined index: image_file1 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 15
+[21-Apr-2019 15:45:22 UTC] PHP Notice:  Undefined index: image_file2 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 20
+[21-Apr-2019 15:45:22 UTC] PHP Notice:  Undefined index: image_file2 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 23
+[21-Apr-2019 15:45:22 UTC] PHP Notice:  Undefined index: image_file1 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 7
+[21-Apr-2019 15:45:22 UTC] PHP Notice:  Undefined index: image_file2 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 9
+[21-Apr-2019 15:45:22 UTC] PHP Notice:  Undefined index: image_file1 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 12
+[21-Apr-2019 15:45:22 UTC] PHP Notice:  Undefined index: image_file1 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 15
+[21-Apr-2019 15:45:22 UTC] PHP Notice:  Undefined index: image_file2 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 20
+[21-Apr-2019 15:45:22 UTC] PHP Notice:  Undefined index: image_file2 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 23
+[21-Apr-2019 15:45:51 UTC] PHP Notice:  Undefined index: image_file1 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 7
+[21-Apr-2019 15:45:51 UTC] PHP Notice:  Undefined index: image_file2 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 9
+[21-Apr-2019 15:45:51 UTC] PHP Notice:  Undefined index: image_file1 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 12
+[21-Apr-2019 15:45:51 UTC] PHP Notice:  Undefined index: image_file1 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 15
+[21-Apr-2019 15:45:51 UTC] PHP Notice:  Undefined index: image_file2 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 20
+[21-Apr-2019 15:45:51 UTC] PHP Notice:  Undefined index: image_file2 in /home/uf94m1j49n0o/public_html/services/add_model.php on line 23
+[21-Apr-2019 15:45:51 UTC] PHP Notice:  Undefined index: manufacturer_id in /home/uf94m1j49n0o/public_html/services/add_model.php on line 29
+[21-Apr-2019 15:45:51 UTC] PHP Notice:  Undefined index: model-name in /home/uf94m1j49n0o/public_html/services/add_model.php on line 30
+[21-Apr-2019 15:45:51 UTC] PHP Notice:  Undefined index: model-color in /home/uf94m1j49n0o/public_html/services/add_model.php on line 31
+[21-Apr-2019 15:45:51 UTC] PHP Notice:  Undefined index: model-year in /home/uf94m1j49n0o/public_html/services/add_model.php on line 32
+[21-Apr-2019 15:45:51 UTC] PHP Notice:  Undefined index: model-reg-no in /home/uf94m1j49n0o/public_html/services/add_model.php on line 33
+[21-Apr-2019 15:45:51 UTC] PHP Notice:  Undefined index: model-note in /home/uf94m1j49n0o/public_html/services/add_model.php on line 34
+[21-Apr-2019 15:45:51 UTC] PHP Notice:  Undefined index: model-count in /home/uf94m1j49n0o/public_html/services/add_model.php on line 35
